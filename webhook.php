@@ -16,7 +16,7 @@ $options = array(
 );
 $pusher = new Pusher\Pusher(
     auth_key: 'usuarioteste_63c4ff6423765as',
-    secret: '1759dd06464041b182f2a18abae597a',
+    secret: 'xxxxxxxx',
     app_id: '1840990',
     options: $options
 );
@@ -94,10 +94,10 @@ function verificarBanco($webhookData): string {
 }
 
 function getDBConnection(): PDO {
-    $host = 'solaras.shop'; // Substitua pelo seu host
+    $host = 'xxxxxx'; // Substitua pelo seu host
     $db = 'u244698307_prmd'; // Substitua pelo nome do seu banco de dados
     $user = 'u244698307_prmd'; // Substitua pelo seu usuário do banco de dados
-    $pass = 'Livro10%'; // Substitua pela sua senha do banco de dados
+    $pass = 'xxxxxxxx'; // Substitua pela sua senha do banco de dados
 
     try {
         $pdo = new PDO(dsn: "mysql:host=$host;dbname=$db", username: $user, password: $pass);
