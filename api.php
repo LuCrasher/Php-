@@ -4,7 +4,7 @@ $dados = [
         [
             "Status" => true,
             "Client ID" => 'usuarioteste_63c4ff6423765as',
-            "Client Secret" => '1759dd06464041b182f2a18abae597a',
+            "Client Secret" => 'xxxxxxxxx',
             "Webhook URI" => "https://btmoney.site/gate/webhook.php"
         ]
     ],
