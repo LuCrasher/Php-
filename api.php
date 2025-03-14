@@ -233,7 +233,7 @@ $numero_telefone = getUserPhoneNumber($user_id);
             }
 
         } elseif ($resultado['Tabela'] == 'BSPAY') {
-                $token = 'c29sYXJhc2d0OnNob3Bzb2xhcmFzYnRj';
+                $token = 'xxxxxxxxxxxxxxxxxxxxxxx';
                 
              
                 $valorEmCentavos = $dadosRecebidos['valor'] * 100;
